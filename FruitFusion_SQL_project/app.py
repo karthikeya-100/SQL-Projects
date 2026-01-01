@@ -1,5 +1,7 @@
 import streamlit as st
 
+st.set_page_config(layout="wide")
+
 st.title("🍎 Fruit Dataset: SQL Analysis Portfolio")
 st.markdown("This dashboard showcases SQL queries and their business applications for fruit inventory and health analytics.")
 st.divider()
